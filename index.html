@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: lightblue;
+      overflow-y: hidden;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      /* margin-bottom: 20px; */
+    }
+
+    .card-content {
+      border-radius: 20px;
+      background-color: white;
+      box-sizing: border-box;
+      height: 550px;
+      padding: 15px;
+      width: 350px;
+      margin-bottom: 10px;
+    }
+
+    .qr-content img {
+      width: 100%;
+      border-radius: 20px;
+    }
+
+    .desc-content {
+      padding: 0 11px;
+      text-align: center;
+    }
+
+    .desc-content p:first-child {
+      color: rgb(8, 8, 31);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 25px;
+      font-weight: 900;
+    }
+
+    .desc-content p:last-child {
+      color: rgb(126, 126, 126);
+      font-size: 18px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card-content">
+      <div class="qr-content">
+        <img src="/images/image-qr-code.png" />
+      </div>
+      <div class="desc-content">
+        <p>
+          Improve your front-end skills by building projects
+        </p>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/oscarenriqq">Oscar Molinar</a>.
+    </div>
+  </div>
+
+</body>
+
+</html>
